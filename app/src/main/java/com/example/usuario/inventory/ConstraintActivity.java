@@ -1,4 +1,4 @@
-package com.example.usuario.inventorio;
+package com.example.usuario.inventory;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

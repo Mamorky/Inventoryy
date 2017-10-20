@@ -1,4 +1,4 @@
-package com.example.usuario.inventorio;
+package com.example.usuario.inventory;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

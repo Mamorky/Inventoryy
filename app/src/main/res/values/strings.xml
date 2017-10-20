@@ -20,4 +20,6 @@
     <string name="txvSubcategiaPro">Subcategoría</string>
     <string name="txvTipoPro">Tipo</string>
     <string name="txvDescripcionPro">Descripcion</string>
+    <string name="txvPrecioPro">Precio</string>
+    <string name="txvFCompra">Fecha Compra</string>
 </resources>

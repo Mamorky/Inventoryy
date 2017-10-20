@@ -10,7 +10,7 @@
     tools:layout_editor_absoluteY="25dp">
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imgMonitor"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginEnd="8dp"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/monitor" />
+        app:srcCompat="@drawable/monitor" android:contentDescription="TODO" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/txvNombrePro"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edtNombre"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/txvSerialPro"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edtSerial"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <TextView
@@ -52,7 +52,7 @@
         android:layout_height="16dp"
         android:layout_marginStart="8dp"
         android:text="@string/txvVendedorPro"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edtVendedor"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <TextView
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/txvModeloPro"
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edtModelo"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <TextView
@@ -92,7 +92,7 @@
         app:layout_constraintTop_toTopOf="@+id/edtDescripcionPro" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -100,10 +100,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+        app:layout_constraintTop_toBottomOf="@+id/imgMonitor"
+        android:labelFor="@id/txvNombre"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtSerial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -111,10 +112,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/edtNombre"
+        android:labelFor="@id/txvSerial"/>
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edtVendedor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -122,10 +124,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtSerial"
+        android:labelFor="@id/txvVendedor"/>
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edtModelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -133,7 +136,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/edtVendedor"
+        android:labelFor="@id/txvModelo"/>
 
     <android.support.constraint.Barrier
         android:id="@+id/barrier"
@@ -149,7 +153,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/edtModelo" />
 
     <Spinner
         android:id="@+id/spnSubCategoria"
@@ -186,14 +190,15 @@
         android:ems="10"
         android:inputType="textMultiLine"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/spnTipo" />
+        app:layout_constraintTop_toBottomOf="@+id/spnTipo"
+        android:labelFor="@id/txvDesripcionPro"/>
 
     <TextView
         android:id="@+id/txvPrecio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="TextView"
+        android:text="@string/txvPrecioPro"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/edtPrecio" />
 
@@ -205,14 +210,15 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/edtDescripcionPro" />
+        app:layout_constraintTop_toBottomOf="@+id/edtDescripcionPro"
+        android:labelFor="@id/txvPrecio"/>
 
     <TextView
         android:id="@+id/txvFCompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="TextView"
+        android:text="@string/txvFCompra"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/edtFCompra" />
 
@@ -224,7 +230,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/barrier"
-        app:layout_constraintTop_toBottomOf="@+id/edtPrecio" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPrecio"
+        android:labelFor="@id/txvFCompra"/>
 
 
 </android.support.constraint.ConstraintLayout>

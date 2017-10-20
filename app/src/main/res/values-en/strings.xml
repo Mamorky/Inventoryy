@@ -21,4 +21,6 @@
     <string name="txvSubcategiaPro">Subcat</string>
     <string name="txvTipoPro">Type</string>
     <string name="txvDescripcionPro">Description</string>
+    <string name="txvPrecioPro">Precio</string>
+    <string name="txvFCompra">Fecha Compra</string>
 </resources>
