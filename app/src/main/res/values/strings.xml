@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LoginLinearLayout</string>
+    <string name="txvSignIn">Acceder</string>
+    <string name="txvUser">Nombre de usuario</string>
+    <string name="txvPassword">Contraseña</string>
+    <string name="chkRemember">Recordar Usuario</string>
+    <string name="btnSignUp"><u>Registro</u></string>
+    <string name="btnSignIn">Acceder</string>
+    <string name="btnGoogleSignIn">Google</string>
+    <string name="btnFacebookSignIn">Login in with Facebook</string>
+    <string name="txvName">Nombre</string>
+    <string name="txvDescription">Descripción</string>
+    <string name="txvDateCreate">Fecha creacion</string>
+    <string name="btnChange">Cambiar Estado</string>
+    <string name="txvNombrePro">Nombre</string>
+    <string name="txvSerialPro">Serial</string>
+    <string name="txvVendedorPro">Vendedor</string>
+    <string name="txvModeloPro">Modelo</string>
+    <string name="txvCategoriaPro">Categoría</string>
+    <string name="txvSubcategiaPro">Subcategoría</string>
+    <string name="txvTipoPro">Tipo</string>
+    <string name="txvDescripcionPro">Descripcion</string>
+</resources>

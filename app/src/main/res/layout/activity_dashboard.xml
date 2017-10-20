@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5">
+
+    <!--    Fila 1      -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/closet" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/chair" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/cpu" />
+    <!--    Fin Fila 1  -->
+
+    <!--    Fila 2  -->
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/inventory" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/keyboard" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/monitor" />
+    <!-- Fin Fila 2 -->
+
+    <!-- Fin Fila 3 -->
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/mouse" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/printer" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/proyector" />
+    <!-- Fin Fila 3 -->
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/table" />
+    <Space android:layout_width="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="@dimen/imgDashBoardWidth"
+        android:layout_height="@dimen/imgDashBoardHeight"
+        app:srcCompat="@drawable/whiteboard" />
+</GridLayout>
