@@ -10,7 +10,7 @@
     <string name="btnGoogleSignIn">Google</string>
     <string name="btnFacebookSignIn">Login in with Facebook</string>
     <string name="txvName">Name</string>
-    <string name="txvDescription">Description</string>
+    <string name="txvDescription">Description of the product</string>
     <string name="txvDateCreate">Date Creation</string>
     <string name="btnChange">Change Status</string>
     <string name="txvNombrePro">Name</string>
@@ -23,4 +23,5 @@
     <string name="txvDescripcionPro">Description</string>
     <string name="txvPrecioPro">Precio</string>
     <string name="txvFCompra">Fecha Compra</string>
+    <string name="imgDescMonitor">monitor</string>
 </resources>

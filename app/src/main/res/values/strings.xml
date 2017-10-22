@@ -22,4 +22,7 @@
     <string name="txvDescripcionPro">Descripcion</string>
     <string name="txvPrecioPro">Precio</string>
     <string name="txvFCompra">Fecha Compra</string>
+    <string name="txvUrl">Url</string>
+    <string name="txvNotas">Notas:</string>
+    <string name="imgDescMonitor">monitor</string>
 </resources>
